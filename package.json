@@ -1,0 +1,25 @@
+{
+  "name": "newbee-admin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:beta": "vite build --mode beta",
+    "build:release": "vite build --mode release",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "element-plus": "^2.2.16",
+    "vue": "^3.2.37",
+    "vue-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "sass": "^1.55.0",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-element-plus": "^0.4.1",
+    "unplugin-vue-components": "^0.22.8",
+    "vite": "^3.1.0"
+  }
+}
